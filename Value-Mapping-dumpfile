@@ -148,4 +148,4 @@ Windows service state	0 ⇒ Running
 7 ⇒ Unknown
 255 ⇒ No such service
 Zabbix agent ping status	1 ⇒ Up
-Zabbix 2.2.9 Copyright 2001-2015 by Zabbix SIA	  |  Connected as 'Admin'
+
