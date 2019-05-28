@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>4.0</version>
+    <date>2019-05-28T17:52:12Z</date>
+    <value_maps>
+	
+		<value_map>
+            <name>APC Basic Output Status</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>Unknown</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>onLine</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>onBattery</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>onSmartBoost</newvalue></mapping>
+                <mapping> <value>5</value><newvalue>timedSleeping</newvalue></mapping>
+                <mapping> <value>6</value><newvalue>softwareBypass</newvalue></mapping>
+                <mapping> <value>7</value><newvalue>off</newvalue></mapping>
+                <mapping> <value>8</value><newvalue>rebooting</newvalue></mapping>
+                <mapping> <value>9</value><newvalue>switchedBypass</newvalue></mapping>
+                <mapping> <value>10</value><newvalue>hardwareFailureBypass</newvalue></mapping>
+                <mapping> <value>11</value><newvalue>sleepingUnitPowerReturn</newvalue></mapping>
+                <mapping> <value>12</value><newvalue>onSmartTrim</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>APC Battery Replace Indicator</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>noBatteryNeedsReplacing</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>batteryNeedsReplacing</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>APC Battery Replacement Status</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>Unknown</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>notInstalled</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>ok</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>failed</newvalue></mapping>
+                <mapping> <value>5</value><newvalue>highTemperature</newvalue></mapping>
+                <mapping> <value>6</value><newvalue>replaceImmediately</newvalue></mapping>
+                <mapping> <value>7</value><newvalue>lowCapacity</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>apcBatteryStatus</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>Unknown</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>batteryNormal</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>batteryLow</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>Liebert Battery Replacement Status</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>Unknown</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>passed</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>failed</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>inProgress</newvalue></mapping>
+                <mapping> <value>5</value><newvalue>systemFailure</newvalue></mapping>
+                <mapping> <value>6</value><newvalue>inhibited</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>Liebert Battery Status</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>Unknown</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>batteryNormal</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>batteryLow</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>batteryDepleted</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>Liebert UPS Output Source</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>other</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>none</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>normal</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>bypass</newvalue></mapping>
+                <mapping> <value>5</value><newvalue>battery</newvalue></mapping>
+                <mapping> <value>6</value><newvalue>booster</newvalue></mapping>
+                <mapping> <value>7</value><newvalue>reducer</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>UPS Battery Status</name>
+            <mappings>
+                <mapping> <value>0</value><newvalue>unknown state</newvalue></mapping>
+                <mapping> <value>1</value><newvalue>On line (mains is present)</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>On battery (mains is not present)</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>Low battery</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>The battery needs to be replaced</newvalue></mapping>
+                <mapping> <value>5</value><newvalue>The battery is charging</newvalue></mapping>
+                <mapping> <value>6</value><newvalue>The battery is discharging</newvalue></mapping>
+                <mapping> <value>7</value><newvalue>UPS bypass circuit is active</newvalue></mapping>
+                <mapping> <value>8</value><newvalue>UPS performing runtime calibration</newvalue></mapping>
+                <mapping> <value>9</value><newvalue>UPS is offline - not supplying power</newvalue></mapping>
+                <mapping> <value>10</value><newvalue>UPS is overloaded</newvalue></mapping>
+                <mapping> <value>11</value><newvalue>UPS is trimming incoming voltage</newvalue></mapping>
+                <mapping> <value>12</value><newvalue>UPS is boosting incoming voltage</newvalue></mapping>
+            </mappings>
+        </value_map>
+		
+		<value_map>
+            <name>UPS SelfTest Errors</name>
+            <mappings>
+                <mapping> <value>1</value><newvalue>Pass</newvalue></mapping>
+                <mapping> <value>2</value><newvalue>Warning</newvalue></mapping>
+                <mapping> <value>3</value><newvalue>Error</newvalue></mapping>
+                <mapping> <value>4</value><newvalue>Aborted</newvalue></mapping>
+                <mapping> <value>5</value><newvalue>in Progress</newvalue></mapping>
+                <mapping> <value>6</value><newvalue>no Test Initiated</newvalue></mapping>
+            </mappings>
+        </value_map>
+
+    </value_maps>
+</zabbix_export>
